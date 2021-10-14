@@ -1,7 +1,7 @@
 library(here)
 library(tidyverse)
 
-df <- read_csv(here("data", "PRESIDENT_precinct_general (2).zip"))
+df <- read_csv(here("data", "PRESIDENT_precinct_general (1).zip"))
 
 View(df)
 
@@ -20,3 +20,4 @@ for (i in 1:nrow(df)) {
 
 cat("Number of votes for Biden", Biden, "\n")
 cat("Number of votes for Trump", Trump)
+#50/50
