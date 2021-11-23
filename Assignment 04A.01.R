@@ -27,4 +27,4 @@ df$Title <- replace(df$Title, df$Title=="Mayor-President", "Mayor")
 
 results <- count(df,df$Title)
 view(results)
-
+#95/100 -5 data import 
