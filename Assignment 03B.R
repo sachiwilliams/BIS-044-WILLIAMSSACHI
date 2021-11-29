@@ -1,7 +1,11 @@
 library(here)
 library(tidyverse)
 
+<<<<<<< Updated upstream
 df <- read_csv(here("data", "PRESIDENT_precinct_general (1).zip"))
+=======
+df <- read_csv(here("Data", "PRESIDENT_precinct_general (1).zip"))
+>>>>>>> Stashed changes
 
 View(df)
 
